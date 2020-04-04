@@ -69,7 +69,7 @@ const UrlList = (props) => {
                         <tr>
                         <th>Target Url</th>
                         <th>Tiny Url</th>
-                        <th>ADS Running</th>
+                        
                         </tr>
                     </thead>
                     <tbody>

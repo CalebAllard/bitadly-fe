@@ -1,8 +1,9 @@
 import axios from 'axios';
+
 export const axiosWithAuth = () => {
     const token = localStorage.getItem('token');
     return axios.create({
-        baseURL: 'https://bitadly.herokuapp.com/',
+        baseURL: process.env.BASE_URL||'https://bitadly.herokuapp.com/',
         headers: {
             Authorization: token
         }
