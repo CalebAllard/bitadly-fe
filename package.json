@@ -1,5 +1,6 @@
 {
   "name": "bitadly-fe",
+  "homepage": "http://caleballard.github.io/bitadly-fe/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

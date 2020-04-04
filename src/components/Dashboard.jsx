@@ -18,7 +18,7 @@ const Dashboard = (props) => {
             
             axiosWithAuth().post('/users', payload)
                 .then(ret => {
-                    console.log('user hit')
+                    
                     addUser(ret.data);
                 })
                 .catch(err => {

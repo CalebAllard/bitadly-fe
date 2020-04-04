@@ -33,7 +33,7 @@ const UrlList = (props) => {
                 
             ])
             
-            console.log('edit urls hit');
+            
         }).catch(err => console.log(err))
         setToggle(!toggle);
     }
@@ -42,7 +42,7 @@ const UrlList = (props) => {
         if(!urls){
         axiosWithAuth().get(`/urls/${props.id}`)
         .then(ret => {
-            console.log('geturls hit')
+            
             setUrls( ret.data );
         })};
 
@@ -85,7 +85,7 @@ const UrlList = (props) => {
                                 onCopy={() => alert(url.short_url + '  copied to clipboard')}>
                                 <span className='icon-copy'><FontAwesomeIcon icon={faCopy}/></span>
                             </CopyToClipboard></td>
-                            <td>No</td>
+                            
                         </tr>
                     )}
                         
