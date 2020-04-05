@@ -68,8 +68,7 @@ const UrlList = (props) => {
                     <thead>
                         <tr>
                         <th>Target Url</th>
-                        <th>Tiny Url</th>
-                        
+                        <th>Tiny Url</th> 
                         </tr>
                     </thead>
                     <tbody>
@@ -90,11 +89,7 @@ const UrlList = (props) => {
                     )}
                         
                     
-                    {/* <tr>
-                        <td>https://www.google.com/search?sxsrf=ALeKk020eSDwjDCILzDPMPL</td>
-                        <td>http://www.bitadly.com/tiny url</td>
-                        <td>No</td>
-                    </tr> */}
+                    
                     </tbody>
 
                 
